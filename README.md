@@ -64,23 +64,54 @@ python main.py
 ## Example Usage
 
 ```text
-Enter a topic: Python
+Enter a topic: cybersecurity
 
 ===== STUDY PLAN =====
 
-1. Networking Fundamentals
-2. Operating Systems
-3. Cryptography
-4. Web Security
-5. Incident Response
+CYBERSECURITY
+
+1.  **Introduction to Cybersecurity Fundamentals**
+    Learn the core concepts, importance, and basic terminology of cybersecurity, including the CIA triad.
+
+2.  **Common Cyber Threats and Vulnerabilities**
+    Understand prevalent attack vectors such as malware, phishing, social engineering, and common system weaknesses.
+
+3.  **Network Security Principles**
+    Explore fundamental network security concepts including firewalls, VPNs, intrusion detection, and secure network protocols.
+
+4.  **Operating System and Application Security**
+    Gain knowledge in securing operating systems, managing patches, configuring user access, and understanding secure software development practices.
+
+5.  **Cryptography Basics**
+    Study the foundational principles of encryption, hashing, digital signatures, and their application in securing data.
+
+6.  **Identity and Access Management (IAM)**
+    Learn about authentication, authorization, multi-factor authentication, and implementing the principle of least privilege.
+
+7.  **Incident Response and Disaster Recovery**
+    Understand the phases of responding to security incidents, forensic basics, and planning for business continuity and data recovery.
+
+8.  **Cybersecurity Governance, Risk, and Compliance (GRC)**
+    Examine the regulatory landscape, legal frameworks, ethical considerations, and risk management strategies in cybersecurity.
+
+Ask another question (or type exit/quit to exit): How much time will it take to learn it properly?
+
+===== ANSWER =====
+
+Learning cybersecurity properly is an ongoing process rather than a destination with a fixed endpoint, as the field constantly evolves. However, to gain a foundational understanding and become proficient enough for an entry-level professional role, you can generally expect the following:
+
+*   **For foundational knowledge and entry-level competency:** Expect to dedicate at least **6 months to 2 years** of focused study and practical application. This timeframe can vary significantly based on your prior technical background (e.g., existing IT or networking experience), the intensity of your study (hours per week), and the specific learning path you pursue (e.g., certifications, degree programs, self-study).
+*   **For specialized roles and advanced proficiency:** This will require continuous learning beyond the initial foundational period, potentially spanning **several years** of dedicated effort, practical experience, and advanced certifications or education.
+
+The concept of "properly" implies not just theoretical knowledge but also practical skills, which take time to develop through labs, projects, and real-world experience.
+
+Ask another question (or type exit/quit to exit): exit
+
+===== SESSION SUMMARY =====
+Topic Studied: cybersecurity
+Questions Asked: 1
 ```
 
----
 
-## Technologies Used
 
-* Python
-* Gemini API
-* google-genai SDK
-* python-dotenv
-* Command Line Interface (CLI)
+
