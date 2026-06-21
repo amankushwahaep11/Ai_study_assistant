@@ -71,14 +71,25 @@ while True:
     history.append(f"User: {user_input}")
 
     prompt = f"""
-    {SYSTEM_PROMPT}
+You are an Expert Study Mentor.
 
-    Previous conversation:
-    {' '.join(history)}
+The student is currently studying: {topic}
 
-    Current question:
-    {user_input}
-    """
+Previous conversation:
+{' '.join(history)}
+
+Answer the user's question clearly and concisely.
+
+Rules:
+- Answer the question directly.
+- Stay focused on the current topic.
+- Do not generate a new study plan unless the user explicitly asks for one.
+- Do not use emojis.
+- Keep explanations educational and relevant.
+
+Current question:
+{user_input}
+"""
 
     answer = client.models.generate_content(
         model="gemini-2.5-flash",
